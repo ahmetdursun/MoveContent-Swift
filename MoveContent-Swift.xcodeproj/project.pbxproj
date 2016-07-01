@@ -15,13 +15,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		CC0E555D1D25F2EB00355D4A /* MoveContent-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MoveContent-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC0E55601D25F2EB00355D4A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CC0E55621D25F2EB00355D4A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CC0E55651D25F2EB00355D4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CC0E55671D25F2EB00355D4A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CC0E556A1D25F2EB00355D4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CC0E556C1D25F2EB00355D4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC0E55721D25F80300355D4A /* MoveContent-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "MoveContent-Swift.app"; path = "/Users/ahmetdursun/Documents/IOS-Workspace/MoveContent-Swift/build/Debug-iphoneos/MoveContent-Swift.app"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,16 +39,7 @@
 			isa = PBXGroup;
 			children = (
 				CC0E555F1D25F2EB00355D4A /* MoveContent-Swift */,
-				CC0E555E1D25F2EB00355D4A /* Products */,
 			);
-			sourceTree = "<group>";
-		};
-		CC0E555E1D25F2EB00355D4A /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				CC0E555D1D25F2EB00355D4A /* MoveContent-Swift.app */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		CC0E555F1D25F2EB00355D4A /* MoveContent-Swift */ = {
@@ -81,7 +72,7 @@
 			);
 			name = "MoveContent-Swift";
 			productName = "MoveContent-Swift";
-			productReference = CC0E555D1D25F2EB00355D4A /* MoveContent-Swift.app */;
+			productReference = CC0E55721D25F80300355D4A /* MoveContent-Swift.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -96,7 +87,6 @@
 				TargetAttributes = {
 					CC0E555C1D25F2EB00355D4A = {
 						CreatedOnToolsVersion = 7.3.1;
-						DevelopmentTeam = 78RKEAR53A;
 					};
 				};
 			};
@@ -109,7 +99,7 @@
 				Base,
 			);
 			mainGroup = CC0E55541D25F2EB00355D4A;
-			productRefGroup = CC0E555E1D25F2EB00355D4A /* Products */;
+			productRefGroup = CC0E55541D25F2EB00355D4A;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -252,6 +242,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "MoveContent-Swift/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.adk.MoveContent-Swift";
@@ -263,6 +254,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "MoveContent-Swift/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.adk.MoveContent-Swift";
